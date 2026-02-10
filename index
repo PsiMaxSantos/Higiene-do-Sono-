@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde e Bem-Estar | Higiene do Sono</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #7d5fff;
+            --bg: #f4f7f6;
+            --text: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+            background: linear-gradient(135deg, #2c3e50, #4b79a1);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        section {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+        }
+
+        h2 { color: var(--accent); border-bottom: 2px solid #eee; padding-bottom: 10px; }
+
+        .media-box {
+            background: #f9f9f9;
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+            margin: 1.5rem 0;
+        }
+
+        audio, video {
+            width: 100%;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        .footer { text-align: center; font-size: 0.9rem; color: #777; padding: 2rem; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Dormir Melhor, Viver Bem</h1>
+    <p>Guia de Higiene do Sono e Respiração</p>
+</header>
+
+<div class="container">
+    
+    <section>
+        <h2>🌙 Higiene do Sono</h2>
+        <p>A higiene do sono é um conjunto de hábitos que ajudam o corpo a entender que é hora de descansar. Algumas dicas essenciais:</p>
+        <ul>
+            <li>Mantenha horários regulares para dormir e acordar.</li>
+            <li>Evite telas (celular/TV) pelo menos 30 minutos antes de deitar.</li>
+            <li>Deixe o ambiente escuro e silencioso.</li>
+        </ul>
+        
+        <div class="media-box">
+            <p><strong>Ouça o Podcast sobre Sono:</strong></p>
+            <audio controls>
+                <source src="audio/podcast-sono.mp3" type="audio/mpeg">
+                Seu navegador não suporta o áudio.
+            </audio>
+        </div>
+    </section>
+
+    <section>
+        <h2>🌬️ Respiração Diafragmática</h2>
+        <p>Esta técnica ajuda a reduzir a ansiedade e prepara o sistema nervoso para o sono profundo. Foque em expandir o abdômen em vez do peito.</p>
+        
+        
+
+[Image of diaphragmatic breathing diagram]
+
+
+        <div class="media-box">
+            <p><strong>Guia em Vídeo:</strong></p>
+            <video controls poster="img/thumb-video.jpg">
+                <source src="video/respiracao.mp4" type="video/mp4">
+                Seu navegador não suporta o vídeo.
+            </video>
+        </div>
+    </section>
+
+</div>
+
+<div class="footer">
+    <p>Criado por um entusiasta da saúde © 2026</p>
+</div>
+
+</body>
+</html>
