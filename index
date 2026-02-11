@@ -106,6 +106,13 @@
                 Seu navegador não suporta o vídeo.
             </video>
         </div>
+<div class="media-box">
+            <p><strong>Guia em Vídeo:</strong></p>
+            <video controls>
+                <source src="RESPIRA%20PEIXINHO.mp4" type="video/mp4">
+                Seu navegador não suporta o vídeo.
+            </video>
+        </div>
     </section>
 
 </div>
